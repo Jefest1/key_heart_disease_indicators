@@ -12,10 +12,10 @@ By leveraging data-driven insights and machine learning techniques, our goal is 
 
 ## Project Structure
 The project is structured as follows:
-<b>Data<b>: Contains the datasets used for analysis and model training.
-<b>Notebook<b>s: Jupyter notebooks for data exploration, feature selection, and model development.
-Scripts: Python scripts for specific tasks such as API development.
-Models: Stores the trained machine learning model(s) for predicting heart disease.
+1. <b>Data</b>: Contains the datasets used for analysis and model training.
+2. <b>Notebooks</b>: Jupyter notebooks for data exploration, feature selection, and model development.
+3. <b>Scripts</b>: Python scripts for specific tasks such as API development.
+4. <b>Models</b>: Stores the trained machine learning model(s) for predicting heart disease.
 
 ## Contributions
 Contributions to the project are welcome! If you have ideas for improvements, bug fixes, or additional features, feel free to submit a pull request.
