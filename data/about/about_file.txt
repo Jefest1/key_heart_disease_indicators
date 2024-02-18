@@ -1,0 +1,65 @@
+Heart Disease Data collected up to 2022 on 400k adults
+
+Key Indicators of Heart Disease
+2022 annual CDC survey data of 400k adults related to their health status
+What topic does the dataset cover?
+
+According to the CDC, heart disease is one of the leading causes of death for people of most races 
+in the US (African Americans, American Indians and Alaska Natives, and white people). About half 
+of all Americans (47%) have at least 1 of 3 key risk factors for heart disease: high blood pressure
+high cholesterol, and smoking. Other key indicator include diabetic status, obesity (high BMI),
+not getting enough physical activity or drinking too much alcohol. Detecting and preventing the
+factors that have the greatest impact on heart disease is very important in healthcare.
+Computational developments, in turn, allow the application of machine learning methods to detect
+"patterns" from the data that can predict a patient's condition.
+
+The abstract outlines the problem statement in a succinct manner, highlighting the key issues and challenges to be addressed.
+
+Coronary heart disease (CHD) is a major public health concern that affects millions of individuals
+worldwide. The prevalence of CHD is influenced by multiple lifestyles and behavioral factors, such
+as sleep cycle, gender, race, age, physical health, BMI, diseases such as diabetes, asthma, and skin
+cancer, and addictive habits like alcohol addiction, and smoking habits. Several such
+lifestyle-related factors are known to influence the risk of developing CHD; however, the extent to
+which these factors contribute is not well understood. Therefore, it is essential to investigate the
+association of various lifestyle factors. Many factors such as hyperlipidemia, type 2 diabetes, and
+hypertension are known to be associated with CHD.
+
+Smoking and high alcohol consumption are important modifiable lifestyle-related factors linked to
+increased CHD risk. Smoking cessation has been shown to have a long-term impact on CHD prevention.
+Chronic alcohol use can increase CHD risk by promoting high blood pressure and increasing harmful
+lipid levels. Sleep disturbances, such as sleep apnea, have also been linked to increased CHD risk.
+Sleep apnea can lead to hypertension, inflammation, and changes in the autonomic nervous system that
+may increase the incidence of arrhythmias, heart failure, and CHD. Obesity, diabetes, hypertension,
+and high cholesterol levels are metabolic risk factors that have been identified as potent
+contributors to CHD. These factors increase CHD risk by promoting inflammation, insulin resistance,
+and endothelial dysfunction, which can lead to atherosclerosis. In conclusion, the lifestyle-related
+factors discussed above have been shown to increase the risk of CHD through different mechanisms.
+Adopting a healthy lifestyle and modifying these factors can help to reduce the incidence of CHD.
+
+A cross-sectional, observational study on a larger population would provide insight into the
+correlation of these factors to CHD. Patientsâ€™ medical histories will be utilized to carry out this
+study and various statistical analyses would reveal the significance of the association. Broadly,
+patientsâ€™ data will be categorized according to their lifestyle habits, community, and environment
+(habitat), underlying diseases and addictive habits.
+
+Where did the dataset come from and what treatments did it undergo?
+
+Originally, the dataset come from the CDC and is a major part of the Behavioral Risk Factor
+Surveillance System (BRFSS), which conducts annual telephone surveys to gather data on the health
+status of U.S. residents. As the CDC describes: "Established in 1984 with 15 states, BRFSS now
+collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS
+completes more than 400,000 adult interviews each year, making it the largest continuously conducted
+health survey system in the world.". The most recent dataset (as of February 15, 2022) includes data
+from 2022. It consists of 401,958 rows and 279 columns. The vast majority of columns are questions
+asked to respondents about their health status, such as "Do you have serious difficulty walking or
+climbing stairs?" or "Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs =
+100 cigarettes]". In this dataset, I noticed many different factors (questions) that directly or
+indirectly influence heart disease, so I decided to select the most relevant variables from it and do
+some cleaning so that it would be usable for machine learning projects.
+
+What can you do with this dataset?
+As described above, the original dataset of nearly 300 variables was reduced to just about 20
+variables. In addition to classical EDA, this dataset can be used to apply a range of machine
+learning methods, most notably classifier models (logistic regression, SVM, random forest, etc.).
+You should treat the variable "HeartDisease" as a binary ("Yes" - respondent had heart disease; "No"
+- respondent had no heart disease).
